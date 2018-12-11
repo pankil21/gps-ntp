@@ -15,7 +15,7 @@ def counter_label(label):
     global counter
     counter += 1
     c = ntplib.NTPClient()
-    #resp = c.request('192.168.2.150')
+    resp = c.request('time.nplindia.org')
     x = ctime(resp.tx_time)
     label.config(text=str(x))
     label.after(1000, count)
