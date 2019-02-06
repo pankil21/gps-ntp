@@ -21,7 +21,7 @@ def counter_label(label):
     label.after(1000, count)
   count()
  
- 
+#HI thi is pankil
 root = tk.Tk()
 root.title("GPS Time")
 label = tk.Label(root, fg="blue")
